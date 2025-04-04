@@ -72,14 +72,14 @@ int main()
     cout<<"Permanent address of the customer:";
     cin>>c1.address;
     cout<<"Adhar number of the customer:";
-    cin>>c1.adhar[12];
+    cin>>c1.adhar;
     if (strlen(c1.adhar)!=12)
     {
         cout<<"Enter the valid  adhar number"<<endl;
         return 0;
     }
     cout<<"Enter the phone number:";
-    cin>>c1.phone_number[10];
+    cin>>c1.phone_number;
     if( strlen(c1.phone_number)!=10)
     {
         cout<<"Please!!Enter the valid phone number";
